@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q": "Manulife được thành lập vào năm nào?",
+      "qEn": "In which year was Manulife founded?",
+      "a": ["1867", "1887", "1901", "1921"],
+      "aEn": ["1867", "1887", "1901", "1921"],
+      "correct": 1
+    },
+    {
+      "q": "Manulife được thành lập tại quốc gia nào?",
+      "qEn": "In which country was Manulife founded?",
+      "a": ["Hoa Kỳ", "Anh Quốc", "Canada", "Úc"],
+      "aEn": ["United States", "United Kingdom", "Canada", "Australia"],
+      "correct": 2
+    },
+    {
+      "q": "Tên đầy đủ theo pháp lý của Manulife là gì?",
+      "qEn": "What is Manulife's full legal name?",
+      "a": [
+        "The Manufacturers Life Insurance Company",
+        "Manufacturing Life Insurance Company",
+        "Manulife Global Life Insurance",
+        "The Manual Life Insurance Company"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Trụ sở chính của Manulife đặt tại thành phố nào?",
+      "qEn": "In which city is Manulife's headquarters?",
+      "a": ["Vancouver", "Toronto", "Montreal", "New York"],
+      "aEn": ["Vancouver", "Toronto", "Montreal", "New York"],
+      "correct": 1
+    },
+    {
+      "q": "Manulife hoạt động chính ở những khu vực nào?",
+      "qEn": "Which regions does Manulife mainly operate in?",
+      "a": ["Châu Âu và châu Á", "Canada, Hoa Kỳ và châu Á", "Châu Mỹ Latinh", "Châu Phi"],
+      "aEn": ["Europe and Asia", "Canada, the United States and Asia", "Latin America", "Africa"],
+      "correct": 1
+    },
+    {
+      "q": "Màu chủ đạo trong hệ thống nhận diện thương hiệu Manulife là?",
+      "qEn": "What is Manulife's main brand colour?",
+      "a": ["Xanh lá cây", "Xanh dương", "Đỏ", "Vàng"],
+      "aEn": ["Green", "Blue", "Red", "Yellow"],
+      "correct": 0
+    },
+    {
+      "q": "Biểu tượng logo Manulife (dáng mầm lá) gồm mấy cánh?",
+      "qEn": "How many leaves are in the Manulife logo mark?",
+      "a": ["2", "3", "4", "5"],
+      "aEn": ["2", "3", "4", "5"],
+      "correct": 1
+    },
+    {
+      "q": "Trong phễu 10-5-3-1, từ 10 người bạn tiếp cận sẽ có bao nhiêu cuộc gặp?",
+      "qEn": "In the 10-5-3-1 funnel, how many meetings come from 10 outreach contacts?",
+      "a": ["10", "5", "3", "1"],
+      "aEn": ["10", "5", "3", "1"],
+      "correct": 1
+    }
+  ]
+}
