@@ -497,8 +497,8 @@ function hostCells(q, reveal) {
   var opts = qOpts(q);
   return opts.map(function (txt, i) {
     var cls = 'hAns c' + i + (reveal && i === q.correct ? ' ok' : '');
-    var inner = SHAPES[i];
-    if (reveal) inner += '<span class="ansTxt">' + esc(txt) + '</span><span class="cnt">' + q.counts[i] + '</span>';
+    var inner = SHAPES[i] + '<span class="ansTxt">' + esc(txt) + '</span>';
+    if (reveal) inner += '<span class="cnt">' + q.counts[i] + '</span>';
     return '<div class="' + cls + '">' + inner + '</div>';
   }).join('');
 }
