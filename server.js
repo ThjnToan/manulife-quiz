@@ -21,7 +21,7 @@ const fs = require('fs');
 const path = require('path');
 const QRCode = require('qrcode');
 
-const PORT = Number(process.env.QUIZ_PORT || 8002);
+const PORT = Number(process.env.QUIZ_PORT || process.env.PORT || 8002);
 const QFILE = process.env.QUIZ_QUESTIONS || path.join(__dirname, 'questions.json');
 const INDEX = path.join(__dirname, 'index.html');
 const MAX_PLAYERS = 100;
