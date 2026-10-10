@@ -1,0 +1,16 @@
+# Render blueprint for the Manulife Quiz.
+# Declares the web service so the dashboard picks everything up on connect.
+# Server reads process.env.PORT (honoured since commit 2330f7b) and binds 0.0.0.0.
+services:
+  - type: web
+    name: manulife-quiz
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
